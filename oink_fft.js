@@ -1,7 +1,3 @@
-function nextPowerOf2(n) {
-    return Math.pow(2, Math.ceil(Math.log2(n)));
-}
-
 /**********************************************************************************************/
 /**********************************************************************************************/
 /**********************************************************************************************/
@@ -105,6 +101,9 @@ function fftReal128(realInput) {
 /***************************** OLD IMPLEMENTATION FOR REF *************************************/
 /**********************************************************************************************/
 
+function nextPowerOf2(n) {
+    return Math.pow(2, Math.ceil(Math.log2(n)));
+}
 
 // Bit reversal function
 function bitReverse(num, bits) {
@@ -488,8 +487,14 @@ function IFFT2048onHalf(halfSpectrum) {
 
 
 
+(async () => {
+    // Import the WASM file and initialize the module
+    const Module_OINK = await import('https://cdn.jsdelivr.net/gh/sch1z0net/oink@v0.1.5-alpha/fft_wasm.js');
+    await initializeModuleOINK(await Module_OINK.default());
+})();
+
+
 export { 
-    initializeModuleOINK, 
     fftReal2048, IFFT2048onHalf,
     fftReal1024, IFFT1024onHalf,
     fftReal512,  IFFT512onHalf,
