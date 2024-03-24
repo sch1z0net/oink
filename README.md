@@ -1,15 +1,17 @@
 
-
-
 Introducing Oink FFT: A Quick and Dirty JavaScript FFT Implementation ![A funny pig is displayed, the Icon of OINK FFT](https://github.com/sch1z0net/sch1z0net.github.io/blob/main/oink_fft/favicon/favicon-32x32.png)
 =====================================================================
 
 Are you looking to dive into Fourier analysis without getting lost in complex algorithms and mathematical intricacies?  
-Meet Oink FFT - your quick and dirty solution for Fast Fourier Transform in JavaScript.  
+Meet *Oink FFT* - your quick and dirty solution for Fast Fourier Transform in JavaScript.  
 Whether you're exploring signal processing concepts, building audio visualizations, 
-or experimenting with frequency analysis, Oink FFT provides a simple and effective solution 
-to get you started quickly. Dive into the world of Fourier analysis with Oink FFT 
+or experimenting with frequency analysis, *Oink FFT* provides a simple and effective solution 
+to get you started quickly. Dive into the world of Fourier analysis with *Oink FFT* 
 and unlock the dirty secrets hidden within your data.
+
+> [!TIP]
+> For a better visual presentation and even a **LIVE BENCHMARK**, please visit
+> [The Official OINK Site](https://sch1z0net.github.io/oink_fft/) 
 
 What is FFT?
 ------------
@@ -38,6 +40,9 @@ Getting Started:
 ----------------
 
 To start using Oink FFT, simply import the library into your JavaScript project and follow the intuitive API to perform FFT operations on your data.
+
+> [!NOTE]
+> This is an Alpha Version, providing only Forward FFTs for several sizes. Code might still contain bugs, and more features will be added in the future.
 
 ### 1. Easy Import
 
@@ -75,7 +80,9 @@ let spectrum  = OINK.fftReal2048(realInput);
 
 ### Just try out some Examples
 
-[Simple FFT Table](https://sch1z0net.github.io/oink_fft/examples/simple/) [FFT Plotter using Chart.js](https://sch1z0net.github.io/oink_fft/examples/plot/)
+[Simple FFT Table](https://sch1z0net.github.io/oink_fft/examples/simple/) 
+
+[FFT Plotter using Chart.js](https://sch1z0net.github.io/oink_fft/examples/plot/)
 
 About this Project
 ==================
