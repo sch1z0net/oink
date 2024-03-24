@@ -75,7 +75,7 @@ let spectrum  = OINK.fftReal2048(realInput);
 
 ### Just try out some Examples
 
-[Simple FFT Table](./examples/simple) [FFT Plotter using Chart.js](./examples/plot)
+[Simple FFT Table](https://sch1z0net.github.io/oink_fft/examples/simple/) [FFT Plotter using Chart.js](https://sch1z0net.github.io/oink_fft/examples/plot/)
 
 About this Project
 ==================
